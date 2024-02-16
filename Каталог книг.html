@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Каталог книг</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/katalog.css">
+    <link rel="icon" href="img/logo2.png" type="image/x-icon">
+  </head>
+  </head>
+  <body>
+    <script src="js/search.js"></script>
+    <header>
+      <div class="header-left">
+        <a href="main.html">
+          <img src="img/logo2.png" alt="BookCave Logo">
+          <h3>BookCave</h3>
+        </a>
+      </div>
+      <div class="header-right">
+        <img src="img/lupa.png">
+        <input type="text" placeholder="Пошук...">
+      </div>
+    </header>
+    <div class="banner">
+      <div class="banner-text">
+        <h1>Каталог книг</h1>
+      </div>
+    </div>
+    <div class="rectangle"> 
+      <nav>
+        <ul class="nav-links">
+          <li class="dropdown">
+            <a href="Каталог книг.html">Каталог книг</a>
+            <ul class="dropdown-menu">
+              <li><a href="Художня літ.html">Художня література</a></li>
+              <li><a href="Дитяча літ.html">Дитяча література</a></li>
+              <li><a href="Пізнавальна літ.html">Пізнавальна література та саморозвиток</a></li>
+              <li><a href="Навчальна літ.html">Навчальна література</a></li>
+            </ul>
+          </li>
+          <li><a href="main.html">Головна</a></li>
+          <li><a href="Автори.html">Автори</a></li>
+        </ul>
+      </nav>
+    </div> 
+    <div class="categories">
+      <div class="category">
+        <div class="image-button">
+          <img src="img/1.png" alt="Художня література">
+          <button class="button1" onclick="window.location.href='Художня літ.html'">Художня література</button><br>
+        </div>
+        <div class="image-button">
+          <img src="img/2.png" alt="Дитяча література">
+          <button class="button" onclick="window.location.href='Дитяча літ.html'">Дитяча література</button>
+        </div>
+      </div>
+      <div class="category">
+        <div class="image-button">
+          <img src="img/3.png" alt="Пізнавальна література та саморозвиток">
+          <button class="button" onclick="window.location.href='Пізнавальна літ.html'">Пізнавальна література та саморозвиток</button><br>
+        </div>
+        <div class="image-button">
+          <img src="img/4.png" alt="Навчальна література">
+          <button class="button" onclick="window.location.href='Навчальна літ.html'">Навчальна література</button>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div>
+        <a href="https://www.facebook.com/groups/bondvikaart" target="_blank">
+        <img src="img/fac.png" alt="Facebook" width="30" height="30">
+        </a>
+        <a href="https://www.instagram.com/bondvika_art/" target="_blank">
+        <img src="img/inst.png" alt="instagram" width="30" height="30">
+         </a>
+        <a href="https://twitter.com/VikaBon80424410" target="_blank"> 
+        <img src="img/twi.png" alt="Twitter" width="30" height="30">
+      </a>
+      </div>
+      <p>©2023</p>
+    </footer>
+  </body>
+</html>
